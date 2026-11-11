@@ -46,7 +46,7 @@ everywhere it's used.
     --secondary-color: #A1869E;
     --accent-color: #CFFFE5;
     --text-dark: #2c3e50;
-    --text-light: #5f6f73;
+    --text-light: #96b8bf;
     /*
     The accent and light-text colors are chosen so that text stays readable:
     white on the accent color, and light text on the light background, both

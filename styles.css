@@ -42,9 +42,9 @@ everywhere it's used.
 
 :root {
     /* Colors */
-    --primary-color: #2c3e50;
-    --secondary-color: #34495e;
-    --accent-color: #2672ad;
+    --primary-color: #5F1A37;
+    --secondary-color: #A1869E;
+    --accent-color: #CFFFE5;
     --text-dark: #2c3e50;
     --text-light: #5f6f73;
     /*
@@ -304,7 +304,7 @@ header {
 */
 
 .hero {
-    background-color: var(--primary-color);
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
     /*
     Try replacing with:
     background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
@@ -363,15 +363,12 @@ header {
     → Exercise 22: Add the .card:hover rule below
     */
 }
-
-/* → Exercise 22: Uncomment to add hover effects
 .card:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-lg);
 }
 */
 
-/* → Exercise 18: Uncomment to style the skills section differently
 .skills-section {
     background-color: var(--light-gray);
 }

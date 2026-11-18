@@ -537,28 +537,17 @@ footer p {
 }
 
 
-/*
-================================================================================
-12. UTILITIES
-================================================================================
-
-Small helper classes for common needs.
-*/
-
 .text-center { text-align: center; }
 .text-light { color: var(--text-light); }
 
+.skills-section {
+    background-color: var(--light-gray);
+}
 
-/*
-================================================================================
-13. RESPONSIVE STYLES (MEDIA QUERIES)
-================================================================================
+.skills-section .card {
+    border-left: 4px solid var(--accent-color);
+}
 
-Media queries apply styles only when certain conditions are met.
-These rules take effect when the screen is 768px or narrower.
-
-→ Exercise 24: Add more breakpoints or modify these
-*/
 
 @media (max-width: 768px) {
     .header-content {

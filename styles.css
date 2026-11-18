@@ -92,7 +92,7 @@ starting point.
 */
 
 * {
-    margin: 0;
+    margin: 0
     padding: 0;
     box-sizing: border-box;
     /*
@@ -239,12 +239,8 @@ header {
     position: sticky;
     top: 0;
     z-index: 100;
-    /*
-    position: sticky + top: 0 makes the header stick to the top when you scroll.
-    z-index ensures it appears above other content.
     
-    Try changing sticky to fixed or relative and scroll your page.
-    */
+    position: sticky + top: 0
 }
 
 .header-content {

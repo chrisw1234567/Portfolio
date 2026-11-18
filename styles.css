@@ -236,11 +236,10 @@ header {
     background-color: var(--primary-color);
     color: var(--white);
     padding: var(--spacing-sm) 0;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 100;
-    
-    position: sticky + top: 0
+    position: fixed + top: 0
 }
 
 .header-content {
@@ -519,10 +518,8 @@ footer p {
     width: 100%;
     height: auto;
     border-radius: var(--radius-md);
-    /*
     width: 100% + height: auto keeps the image's aspect ratio.
     The image scales to fit its container without distorting.
-    */
 }
 
 .profile-image figcaption {
@@ -565,7 +562,6 @@ footer p {
     h2 { font-size: 1.5rem; }
 }
 
-/* → Exercise 24: Try adding this smaller breakpoint
 @media (max-width: 480px) {
     .hero h1 {
         font-size: 1.75rem;
@@ -579,7 +575,6 @@ footer p {
         padding: 1rem;
     }
 }
-*/
 
 
 /*

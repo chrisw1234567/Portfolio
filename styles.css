@@ -393,8 +393,9 @@ header {
 }
 
 .contact-section .btn:hover {
-    background-color: var(--primary-color);
-    border-color: var(--light-gray);
+  background-color: var(--light-gray);
+  border-color: var(--light-gray);
+  color: var(--primary-color);
 }
 
 
